@@ -49,14 +49,6 @@ jobs:
       matrix:
         build: [macos]
         include:
-          - build: linux
-            os: ubuntu-latest
-            rust: stable
-            target: x86_64-unknown-linux-musl
-          - build: windows
-            os: windows-latest
-            rust: stable-x86_64-msvc
-            target: x86_64-pc-windows-msvc
           - build: macos
             os: macos-latest
             rust: stable
